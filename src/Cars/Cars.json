@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "manufacturer": "Porsche",
+      "icon": "https://logos-world.net/wp-content/uploads/2021/04/Porsche-Logo.png",
+      "cars": [
+        {
+          "id": 0,
+          "manufacturer": "Porsche",
+          "model": "911",
+          "price": "135000$",
+          "km": "118,012 KM",
+          "img": "https://storage.googleapis.com/thisday-846548948316-wp-data/wp-media/997cdd26-porsche-911.jpg"
+        },
+
+        {
+          "id": 1,
+          "manufacturer": "Porsche",
+          "model": "911",
+          "km": "118,012 KM",
+          "price": "135000$",
+          "img": "https://storage.googleapis.com/thisday-846548948316-wp-data/wp-media/997cdd26-porsche-911.jpg"
+        }
+      ]
+    },
+    {
+      "manufacturer": "Nissan",
+      "icon": " https://cdn0.iconfinder.com/data/icons/car-brands/550/Nissan_logo-512.png",
+      "cars": [
+        {
+          "manufacturer": "Nissan",
+          "model": "GT-R",
+          "km": "118,012 KM",
+          "price": 80000,
+          "wiki": "https://i.ytimg.com/vi/USpV6nDA1F0/maxresdefault.jpg",
+          "img": "https://i.ytimg.com/vi/USpV6nDA1F0/maxresdefault.jpg",
+          "icon": " https://cdn0.iconfinder.com/data/icons/car-brands/550/Nissan_logo-512.png",
+          "id": 2
+        },
+        {
+          "manufacturer": "Nissan",
+          "model": "GT-R",
+          "km": "222,012 KM",
+          "price": "$44022",
+          "wiki": "https://i.ytimg.com/vi/USpV6nDA1F0/maxresdefault.jpg",
+          "img": "https://i.ytimg.com/vi/USpV6nDA1F0/maxresdefault.jpg",
+          "icon": " https://cdn0.iconfinder.com/data/icons/car-brands/550/Nissan_logo-512.png",
+          "id": 3
+        }
+      ]
+    }
+  ]
+}

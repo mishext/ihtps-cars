@@ -1,0 +1,505 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+.headerContainer {
+  background-image: url("../Images/bg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 113vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+.headerContent {
+  color: white;
+  padding-bottom: 200px;
+}
+.headerContent .p1 {
+  margin-bottom: 0px !important;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  font-family: "Koulen", cursive;
+  color: rgb(246, 93, 38);
+}
+
+.headerContent .p2 {
+  font-family: "Koulen", cursive;
+  padding-top: 0px;
+  margin-top: 0px;
+  color: rgb(246, 93, 38);
+  font-size: 16px;
+}
+.headerButton {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: gray;
+  border-radius: 5px;
+}
+.headerButton:hover {
+  background-color: rgb(223, 85, 35);
+}
+.MovingContainer {
+  color: gold;
+  background-color: rgb(185, 19, 19) !important;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Main Container !!!!!!!!!!!!!!!! */
+
+.mainDescription {
+  padding-top: 50px;
+  font-size: 26px !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* .mainDescription p {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+} */
+hr {
+  width: 80%;
+  border: solid black 4px;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.typesButton {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.gridContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: flex-end;
+  grid-template-columns: repeat(3, 3fr);
+  grid-gap: 30px;
+}
+.Card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* justify-items: flex-start; */
+  /* align-items: flex-start; */
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  padding-top: 5px;
+  padding-left: 15px;
+}
+.carType {
+  font-family: GothamBold, Avenir, Futura, Arial, SansSerif, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  align-self: flex-start;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.carKm {
+  padding: 4px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  background-color: rgba(94, 124, 138, 0.179);
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 0px;
+}
+.carPrice {
+  font-family: GothamBold, Avenir, Futura, Arial, SansSerif, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #d21404 !important;
+  text-align: end;
+  padding-right: 15px;
+  margin-top: 0px;
+}
+.carIcon {
+  width: 40px;
+}
+
+/* Features Section */
+
+.featuresSection {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  background-color: rgba(0, 0, 0, 0.048);
+}
+.featuresCard {
+  width: 280px;
+  margin: 30px;
+}
+.featuresIcon {
+  width: 120px;
+}
+.featuresp1 {
+  font-family: GothamBold, Avenir, Futura, Arial, SansSerif, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.featuresp2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  margin-top: 0px;
+}
+/* Banner !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.bannerContainer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.bannerImg {
+  width: 50%;
+  height: 55vh;
+}
+.bannerpContainer {
+  width: 50%;
+  background-color: #17263c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerpContainer p {
+  font-family: GothamBold, Avenir, Futura, Arial, SansSerif, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* Footer !!!!!!!!!! */
+.footerContainerbg {
+  background-color: #17263c;
+}
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 40px;
+  border-top-left-radius: 45px;
+  background-color: black;
+  /* height: 47vh; */
+  color: white;
+}
+.footerInfo {
+  text-align: start;
+}
+.footerp1 {
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: start;
+}
+.footerPhone {
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.footerCopyRights {
+  font-size: 13px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.whatsAppIcon {
+  position: fixed;
+  right: 0;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  bottom: 5px;
+}
+.whatsAppImg {
+  width: 80px;
+}
+.car-Logo {
+  width: 350px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 860px) {
+  .headerContainer {
+    background-image: url("../Images/ipad-bg.png");
+    background-size: cover;
+    height: 95vh;
+  }
+  .headerContent .p1 {
+    font-size: 30px;
+  }
+
+  .headerContent .p2 {
+    font-size: 16px;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .Card {
+    width: 280px;
+  }
+  .carType {
+    font-size: 18px;
+  }
+  .carKm {
+    font-size: 10px;
+  }
+  .carPrice {
+    font-family: GothamBold, Avenir, Futura, Arial, SansSerif, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d21404 !important;
+    text-align: end;
+    padding-right: 15px;
+  }
+  .typesButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+  }
+  .buttontypes {
+    margin-right: 10px;
+    /* padding: 10px; */
+  }
+  .carIcon {
+    width: 30px;
+  }
+  .featuresSection {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .featuresCard {
+    width: 200px;
+    margin: 0px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  .featuresIcon {
+    width: 80px;
+  }
+  .featuresp1 {
+    font-family: GothamBold, Avenir, Futura, Arial, SansSerif, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .featuresp2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    margin-top: 0px;
+  }
+
+  .bannerContainer {
+    display: flex;
+    flex-direction: column;
+    /* height: 55vh; */
+    color: white;
+  }
+  .bannerImg {
+    width: 100%;
+    height: 30vh;
+  }
+  .bannerpContainer {
+    width: 100%;
+    background-color: #17263c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bannerpContainer p {
+    padding-top: 10px;
+    font-family: GothamBold, Avenir, Futura, Arial, SansSerif, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 0px;
+    /* height: 50vh; */
+    color: white;
+  }
+  .footerInfo {
+    text-align: start;
+  }
+  .footerp1 {
+    font-size: 10px;
+  }
+  .footerPhone {
+    font-size: 10px;
+  }
+  .footerCopyRights {
+    font-size: 8px;
+  }
+
+  .whatsAppIcon {
+    position: fixed;
+    right: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    bottom: 5px;
+  }
+  .whatsAppImg {
+    width: 50px;
+  }
+  .car-Logo {
+    width: 250px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headerContainer {
+    background-image: url("../Images/phone-bg.png");
+    background-size: cover;
+    height: 95vh;
+  }
+  .headerContent .p1 {
+    font-size: 30px;
+  }
+
+  .headerContent .p2 {
+    font-size: 16px;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .Card {
+    width: 280px;
+  }
+  .carType {
+    font-size: 16px;
+  }
+  .carKm {
+    font-size: 8px;
+  }
+  .carPrice {
+    font-family: GothamBold, Avenir, Futura, Arial, SansSerif, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #d21404 !important;
+    text-align: end;
+    padding-right: 15px;
+  }
+  .typesButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+  }
+  .buttontypes {
+    margin-right: 10px;
+    /* padding: 10px; */
+  }
+  .carIcon {
+    width: 30px;
+  }
+  .featuresSection {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    padding-bottom: 50px;
+  }
+  .featuresCard {
+    width: 200px;
+    margin: 0px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+  }
+  .featuresIcon {
+    width: 70px;
+  }
+  .featuresp1 {
+    font-family: GothamBold, Avenir, Futura, Arial, SansSerif, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .featuresp2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    margin-top: 0px;
+  }
+
+  /* Footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 0px;
+    /* height: 35vh; */
+    color: white;
+  }
+  .footerInfo {
+    text-align: start;
+  }
+  .footerp1 {
+    font-size: 6px;
+  }
+  .footerPhone {
+    font-size: 7px;
+  }
+  .footerCopyRights {
+    font-size: 5px;
+  }
+
+  .whatsAppIcon {
+    position: fixed;
+    right: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    bottom: 5px;
+  }
+  .whatsAppImg {
+    width: 30px;
+  }
+  .car-Logo {
+    width: 150px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+}
